@@ -14,4 +14,5 @@
     5. 連結後在repo-name那個打專案名後按Search -> 選搜尋結果裡剛剛Github Fork的專案按Connect
     6. 接著先切換到Settings分頁 -> 按Config Vars旁邊的Reveal Config Vars,接著填入各項資訊,分別為email:MC的email、password:MC的密碼、ip:伺服器IP、port:伺服器Port(通常為25565)、version:MC的版本
     7. 完成後切換回Deploy拉到下面按Manual deploy旁邊的Deploy
-    8. 應該過一段時間就會看到角色在線上了
+    8. 切換到Resources分頁並重新整理頁面,會看到下面的Free Dynos有Web和Worker選項,按右邊的編輯把Web關掉、Worker打開
+    
